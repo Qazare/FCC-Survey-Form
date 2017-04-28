@@ -1,0 +1,30 @@
+#title {
+  text-align: center;
+  font-family: Lato, sans-serif;
+  color: rgb(130, 10, 76);
+}
+
+body {
+  text-align: center;
+  background-color: rgb(250, 250, 250);
+  font-family: Lato, sans-serif;
+  line-height: 30px;
+}
+
+#survey-form {
+  background: linear-gradient(35deg, #EDE, #EDB);
+  
+}
+
+main {
+  margin: 0vw 15vw 0vw 15vw;
+}
+
+#description {
+  margin: 1vw 3vw 2vw 3vw;
+  font-style: italic;
+}
+
+#submit-div {
+  padding: 15px;
+}
