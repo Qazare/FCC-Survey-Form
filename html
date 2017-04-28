@@ -1,0 +1,61 @@
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+<head>
+  <h1 id="title">Your most delightful moment of the day</h1>
+</head>
+
+<main>
+
+  <body>
+    <p id="description">We need to know what you like the most for the coffee break. Because.</p>
+
+    <form id="survey-form">
+
+      <label for="name" id="name-label">What is your name ?</label> <input type="text" id="name" placeholder="Your Name" required><br> <label for="email" id="email-label">Where you want our juicy cupcakes recipes sent to :
+       <input type="email" id="email" placeholder="Email adress" required><br> 
+      <label for="number" id="number-label">Your age : <input type="number" id="number" min=18 max=99 placeholder="76"><br>
+      <label for="dropdown">
+        How many times do you think about cupcakes per day ?
+        <select id="dropdown" name="cupcakes-per-day">
+          <option value="everytime">Every time.</option>
+          <option value="cantstop">I can't stop thinking about it</option>
+          <option value="alltime" checked>All the time!</option>
+          <option value="helpme">Please help me</option>
+        </select>
+        
+        <h4>Let us know more about you</h4>
+        <fieldset name="drink">
+          <legend>Coffee or hot chocolate ?</legend>
+          <label><input type="radio" name="drink" value="1" checked>Coffee</label>
+      <label><input type="radio" name="drink" value="2">Hot chocolate</label>
+      </fieldset>
+      <fieldset name="food">
+        <legend>Muffin, Donut or Cupcake ? Hint: it's Cupcake.</legend>
+        <label><input type="radio" name="food" value="1">Muffin</label>
+        <label><input type="radio" name="food" value="2">Donut</label>
+        <label><input type="radio" name="food" value="3" checked>Cupcake</label>
+        </fieldset>
+        
+        <fieldset name="flavours" id="toppings-checkboxes"><legend>What flavour(s) do you prefer ?</legend>
+          <label><input type="checkbox" name="flavours" value="1">Chocolate</label>
+          <label><input type="checkbox" name="flavours" value="2">Vanilla</label>
+          <label><input type="checkbox" name="flavours" value="3">Caramel</label>
+          <label><input type="checkbox" name="flavours" value="4">Lemon</label>
+          <label><input type="checkbox" name="flavours" value="5">Coffee</label>
+          <label><input type="checkbox" name="flavours" value="6">Others</label>
+        </fieldset>
+        
+        <fieldset name="comments">Give us some additional details on your favorite coffee break. The more in-depth the better. <br>
+          <textarea placeholder="Please give us more details!" style="margin-top: 15px;" name="comments"></textarea>
+        </fieldset>
+        <div id="submit-div">
+        <button type="submit" id="submit">Send with love <3</button>
+        </div>
+        
+        </form>
+        </body>
+      </main>
+      
+      <footer>
+        <p>Coded by <a href="https://github.com/Qazare" target="_blank">Qazare</p>
+      </footer>
